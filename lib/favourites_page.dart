@@ -7,7 +7,11 @@ class FavouritesPage extends StatelessWidget {
   const FavouritesPage({super.key, required this.favouriteProducts});
 
   double get totalCost {
-    return favouriteProducts.fold(0, (sum, product) => sum + product.price);
+    double sum = 0;
+    for (var product in favouriteProducts) {
+      sum += product.price;
+    }
+    return sum;
   }
 
   @override

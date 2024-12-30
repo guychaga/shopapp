@@ -1,3 +1,4 @@
+import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/material.dart';
 import 'package:shopapp/favourites_page.dart';
 import 'product_detail_page.dart';
@@ -24,7 +25,20 @@ class _HomePageState extends State<HomePage> {
   }
 
   Future<void> fetchProducts() async {
-    // Fetch products from Firestore and populate the `products` list
+    // Example: Fetch products from Firestore
+    final snapshot =
+        await FirebaseFirestore.instance.collection('products').get();
+    setState(() {
+      products = snapshot.docs
+          .map((doc) => Product(
+                id: doc.id,
+                name: doc['name'],
+                description: doc['description'],
+                price: doc['price'],
+                imageUrl: doc['imageUrl'],
+              ))
+          .toList();
+    });
   }
 
   void toggleFavourite(Product product) {

@@ -1,21 +1,21 @@
 {
   "project_info": {
-    "project_number": "280086721034",
-    "project_id": "client-app-4e798",
-    "storage_bucket": "client-app-4e798.firebasestorage.app"
+    "project_number": "145809477881",
+    "project_id": "shopapp-cbade",
+    "storage_bucket": "shopapp-cbade.firebasestorage.app"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:280086721034:android:ccbcb9cc131c46788d25f3",
+        "mobilesdk_app_id": "1:145809477881:android:9aef4d7aeb840fa6979228",
         "android_client_info": {
-          "package_name": "com.rokistore.clientapp"
+          "package_name": "com.example.shopapp"
         }
       },
       "oauth_client": [],
       "api_key": [
         {
-          "current_key": "AIzaSyBRbS9_Ihp1oBEeRoizSQNGiRaj1f7aQXA"
+          "current_key": "AIzaSyBzjYTBtPLw4zuXADZ7TCmHH3lJPE36mXI"
         }
       ],
       "services": {
