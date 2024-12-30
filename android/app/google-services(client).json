@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "280086721034",
+    "project_id": "client-app-4e798",
+    "storage_bucket": "client-app-4e798.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:280086721034:android:ccbcb9cc131c46788d25f3",
+        "android_client_info": {
+          "package_name": "com.rokistore.clientapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBRbS9_Ihp1oBEeRoizSQNGiRaj1f7aQXA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
